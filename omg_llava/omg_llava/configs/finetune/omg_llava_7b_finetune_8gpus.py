@@ -42,10 +42,10 @@ from mmdet.models.task_modules.samplers import MaskPseudoSampler
 #                          PART 1  Settings                           #
 #######################################################################
 # Model
-llm_name_or_path = './pretrained/omg_llava/internlm2-chat-7b'  # Please change to your own path
-pretrained_pth = './pretrained/omg_llava/omg_llava_7b_pretrain_1024image_8gpus.pth'
-omg_ov_class_embed_path='./pretrained/omg_llava/convnext_large_d_320_CocoPanopticOVDataset.pth' # Please change to your own path
-omg_head_pretrain_pth_path = './pretrained/omg_llava/omg_seg_convl.pth'  # Please change to your own path
+llm_name_or_path = 'pretrained/omg_llava/internlm2-chat-7b'  # Please change to your own path
+pretrained_pth = 'pretained/omg_llava/omg_llava_7b_pretrain_1024image_8gpus.pth'
+omg_ov_class_embed_path='pretrained/omg_llava/convnext_large_d_320_CocoPanopticOVDataset.pth' # Please change to your own path
+omg_head_pretrain_pth_path = 'pretrained/omg_llava/omg_seg_convl.pth'  # Please change to your own path
 
 # Data
 data_root = './data/llava_data/'
